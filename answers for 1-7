@@ -1,0 +1,8 @@
+-Batch file 
+What information does this file record? It records ,time , date, sensorID, Soilmosture and SoilTemp 
+What kind of device do you think produced this file, and what in the data makes you think so? The soil monitoring probes or the garden beds. the way I know is cause of the SoilTemp_F which records the soil temp in Fahrenheit 
+What identifies one record? a single row is one sensor 
+How are the fields represented? comma -separated and with the first row naming each column
+How many records are there? 120
+What do you notice about how the device actually collects and stores data? they collect readings on a two-hour schedule 
+What are the advantages and disadvantages of this data format? advantages they can identify the changes within that two hour span and the disadvantges are that sensors and bed IDs repeat in every row using more space and allowing inconsistencies
